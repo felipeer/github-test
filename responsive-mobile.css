@@ -1475,7 +1475,7 @@
         overflow-x: hidden;
     }
     .nav-list {
-        position: absolute;
+        position: fixed;
         top: 6vh;
         right: -2px;
         width: 27vw;
