@@ -216,7 +216,7 @@
     }
     
     .manual-btn:hover {
-        box-shadow: 0 0 5px #f75560, 0 0 25px #f75560, 0 0 50px #f75560, 0 0 200px #f75560;
+        background-color: #fff;
     }
     
     #radio1:checked~.first {
