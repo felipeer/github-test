@@ -38,14 +38,18 @@
     
     a:hover {
         opacity: 0.7;
+        background-color: #000;
+        box-shadow: 0 0 5px #f75560, 0 0 25px #f75560, 0 0 50px #f75560, 0 0 200px #f75560;
+        -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
     }
     
     .logo {
-        font-size: 16px;
+        font-size: 22px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 30vh;
-        padding-right: 10px;
+        margin: auto 15vh;
+        padding: 2px 3px 2px 9px;
+        border-radius: 2px 25px;
     }
     
     nav {
