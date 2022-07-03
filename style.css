@@ -41,9 +41,11 @@
     }
     
     .logo {
-        font-size: 24px;
+        font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 4px;
+        margin: auto 20vh;
+        padding-right: 10px;
     }
     
     nav {
