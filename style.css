@@ -34,17 +34,20 @@
         color: #f75560;
         text-decoration: none;
         transition: 0.3s;
+        padding: 2px 3px 2px 9px;
+        border-radius: 2px 25px;
     }
     
     a:hover {
         opacity: 0.7;
-        background-color: #000;
+        color: #000;
+        background-color: #f75560;
         box-shadow: 0 0 5px #f75560, 0 0 25px #f75560, 0 0 50px #f75560, 0 0 200px #f75560;
         -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
     }
     
     .logo {
-        font-size: 22px;
+        font-size: 25px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin: auto 15vh;
@@ -56,7 +59,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+        font-family: 'poppins', sans-serif;
         background: #26272b;
         height: 8vh;
     }
@@ -297,7 +300,7 @@
     /*----------------------------------------- COMECO DO "MAIN" -----------------------------------------------*/
     
     main.main {
-        background: url(background_08.jpg);
+        background: url(../img/background_08.jpg);
         min-height: 500px;
         background-position: center;
         background-repeat: no-repeat;
