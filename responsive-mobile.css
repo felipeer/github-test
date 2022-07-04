@@ -9,6 +9,9 @@
         position: relative;
         overflow-x: hidden;
     }
+    a {
+        font-size: 9px;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -25,7 +28,7 @@
         padding: 0px -1px 0px 0px;
     }- */
     .logo {
-        font-size: 16px;
+        font-size: 13px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin: auto 28px;
@@ -45,7 +48,7 @@
         width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 50vh;
-        font-size: 15px;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
         align-items: flex-start;
@@ -241,7 +244,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -259,6 +262,9 @@
         position: relative;
         overflow-x: hidden;
     }
+    a {
+        font-size: 10px;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -275,7 +281,7 @@
         padding: 0px -1px 0px 0px;
     }- */
     .logo {
-        font-size: 16px;
+        font-size: 13px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin: auto 48px;
@@ -491,7 +497,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -509,6 +515,9 @@
         position: relative;
         overflow-x: hidden;
     }
+    a {
+        font-size: 10px;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -741,7 +750,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -759,6 +768,9 @@
         position: relative;
         overflow-x: hidden;
     }
+    a {
+        font-size: 12px;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -775,7 +787,7 @@
         padding: 0px -1px 0px 0px;
     }- */
     .logo {
-        font-size: 16px;
+        font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
         margin: auto 48px;
@@ -991,7 +1003,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -1009,6 +1021,9 @@
         position: relative;
         overflow-x: hidden;
     }
+    a {
+        font-size: 12px;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -1241,7 +1256,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -1255,6 +1270,9 @@
     body {
         position: relative;
         overflow-x: hidden;
+    }
+    a {
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -1488,7 +1506,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 12px;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -1505,6 +1523,9 @@
     body {
         position: relative;
         overflow-x: hidden;
+    }
+    a {
+        font-size: 12px;
     }
     .nav-list {
         position: absolute;
