@@ -4,6 +4,11 @@
 /*------------------------------  3      2     0   -----------------------*/
 
 @media (min-width: 320px) and (max-width: 350px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -236,7 +241,7 @@
         padding: 0;
     }
     .footer p {
-        font-size: 10px;
+        font-size: 12px;
         color: #f75560;
         background-color: #26272b;
         padding: 30px 10px;
@@ -249,6 +254,11 @@
 /*------------------------------  3    5    1      -----------------------*/
 
 @media (min-width: 351px) and (max-width: 370px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -494,6 +504,11 @@
 /*------------------------------  3    7    1    -----------------------*/
 
 @media (min-width: 371px) and (max-width: 380px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -739,6 +754,11 @@
 /*------------------------------  3    8    1    -----------------------*/
 
 @media (min-width: 381px) and (max-width: 390px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -984,6 +1004,11 @@
 /*------------------------------  3    9    1    -----------------------*/
 
 @media (min-width: 391px) and (max-width: 400px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -1226,6 +1251,11 @@
 }
 
 @media (min-width: 401px) and (max-width: 435px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     header {
         background-color: #26272b;
         padding: 0 auto;
@@ -1471,12 +1501,13 @@
 /*------------------------------  9    9    9 ----------------------------*/
 
 @media (max-width: 999px) {
-    html, body {
-  position:relative;
-  overflow-x:hidden;
-}
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
     .nav-list {
-        position: fixed;
+        position: absolute;
         top: 6vh;
         right: -2px;
         width: 27vw;
