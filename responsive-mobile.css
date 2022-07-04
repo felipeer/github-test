@@ -1471,9 +1471,10 @@
 /*------------------------------  9    9    9 ----------------------------*/
 
 @media (max-width: 999px) {
-    body {
-        overflow-x: hidden;
-    }
+    html, body {
+  position:relative;
+  overflow-x:hidden;
+}
     .nav-list {
         position: fixed;
         top: 6vh;
