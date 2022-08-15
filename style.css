@@ -34,12 +34,13 @@
         color: #f75560;
         text-decoration: none;
         transition: 0.3s;
-        padding: 2px 3px 2px 9px;
-        border-radius: 2px 25px;
+        padding: 2px 1px 2px 3px;
+        border-radius: 5em 5em;
+        font-size: 12px;
+        margin: 0px 40px 0px 0px;
     }
     
     a:hover {
-        opacity: 0.7;
         color: #000;
         background-color: #f75560;
         box-shadow: 0 0 5px #f75560, 0 0 25px #f75560, 0 0 50px #f75560, 0 0 200px #f75560;
@@ -47,17 +48,17 @@
     }
     
     .logo {
-        font-size: 13px;
+        font-size: 25px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 15vh;
-        padding: 2px 3px 2px 9px;
+        margin: 0px 40px 0px 30px;
+        padding: 5px 20px;
         border-radius: 2px 25px;
     }
     
     nav {
         display: flex;
-        justify-content: space-around;
+        word-spacing: 2px;
         align-items: center;
         font-family: 'poppins', sans-serif;
         background: #26272b;
@@ -77,7 +78,7 @@
     
     .nav-list li {
         letter-spacing: 3px;
-        margin-left: 32px;
+        margin-left: 30px;
     }
     
     .mobile-menu {
@@ -324,14 +325,14 @@
         color: #26272b;
         font-size: 40px;
         text-transform: uppercase;
-        margin: 50px 0px 30px 0px
+        margin: 20px 0px 30px 0px
     }
     
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 5px;
-        margin: 20px 0px 10px 0px
+        margin: 10px 0px 10px 0px
     }
     
     .main_cta a {
@@ -368,7 +369,7 @@
     
     .main_cta_01 {
         width: 100%;
-        margin: 20px 0px 10px 0px;
+        margin: 50px 0px 10px 0px;
         text-align: center;
     }
     
@@ -376,7 +377,7 @@
         color: #26272b;
         font-size: 30px;
         text-transform: uppercase;
-        margin-top: 60px;
+        margin-top: 10px;
         margin-bottom: 10px;
         /*PAREI AQUI 02/07*/
     }
@@ -385,12 +386,12 @@
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        margin: 10px 0px 10px 0px
     }
     
     .main_cta_01 button {
         background-color: #26272b;
-        box-shadow: 0 0 5px #fff, 0 0 25px #000, 0 0 50px #f75560, 0 0 200px #f75560;
+        box-shadow: 0 0 5px rgb(202, 186, 186), 0 0 25px #000, 0 0 50px #f75560, 0 0 200px #f75560;
         -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
         display: inline-block;
         padding: 8px 30px;
@@ -399,7 +400,7 @@
         font-size: 15px;
         border: 0;
         cursor: pointer;
-        margin: 6px 0px 50px 0px;
+        margin: 20px auto;
         animation-name: pulsante;
         /* nome da animação */
         animation-duration: 0.5s;
@@ -412,7 +413,7 @@
     }
     
     .main_cta_01 button:hover {
-        background-color: #f75560;
+        background-color: #d44b55;
         color: #26272b;
         box-shadow: 0 0 5px #000, 0 0 25px #fff, 0 0 50px #f75560, 0 0 200px #f75560;
         -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
@@ -433,16 +434,16 @@
         display: flex;
         flex-wrap: nowrap;
         /*wrap para mais colunas // nowrap poucas colunas*/
-        margin: 15px 15px 15px 0px;
+        margin: 15px 15px 60px 0px;
         width: 100%;
         height: 100%;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .quadro-single h2 {
         color: #26272b;
         /* cor do texto */
-        font-size: 20px;
+        font-size: 25px;
         /* tam. do texto */
         margin: 10px 10px 10px 15px;
         text-align: justify;
@@ -498,16 +499,46 @@
     /*--------------------------------------- COMECO DO "FOOTER" -----------------------------------------------*/
     
     .footer-para {
-        margin: 0;
-        padding: 0;
+        margin: auto;
+        padding: auto;
     }
     
-    .footer p {
-        font-size: 10px;
+    .grupos-icones {
+        background-color: #26272b;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    
+    .footer-TXT-01 p {
+        font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        font-weight: 300;
-        padding: 30px 10px;
+        padding: 10px 0px 10px 0px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        text-transform: uppercase;
+    }
+    
+    .footer a {
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 12px 20px;
+        margin: 0px 0px 0px 10px;
+    }
+    
+    .footer a:hover {
+        background-color: #f75560;
+        color: #26272b;
+        transition: transform 0.5s;
+    }
+    
+    .footer-TXT-02 p {
+        font-size: 18px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 10px 0px 20px 0px;
         text-align: center;
         margin: 0px 0px 0px 0px;
     }
