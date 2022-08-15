@@ -301,7 +301,7 @@
     /*----------------------------------------- COMECO DO "MAIN" -----------------------------------------------*/
     
     main.main {
-        background: url(../img/background_08.jpg);
+        background: url(background_08.jpg);
         min-height: 500px;
         background-position: center;
         background-repeat: no-repeat;
@@ -477,7 +477,7 @@
     /*--------------------------------------- COMECO DO "ARTICLE" -----------------------------------------------*/
     
     article {
-        background: url(../img/background_08.jpg);
+        background: url(background_08.jpg);
         min-height: 500px;
         background-position: center;
         /*padding-top: 25px;*/
