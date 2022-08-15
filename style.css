@@ -37,7 +37,8 @@
         padding: 2px 1px 2px 3px;
         border-radius: 5em 5em;
         font-size: 12px;
-        margin: 0px 40px 0px 0px;
+        margin: 0px 5px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     
     a:hover {
@@ -48,11 +49,11 @@
     }
     
     .logo {
-        font-size: 25px;
+        font-size: 30px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 40px 0px 30px;
-        padding: 5px 20px;
+        margin: 0px 110px 0px 30px;
+        padding: 5px 80px;
         border-radius: 2px 25px;
     }
     
@@ -301,7 +302,7 @@
     /*----------------------------------------- COMECO DO "MAIN" -----------------------------------------------*/
     
     main.main {
-        background: url(background_08.jpg);
+        background: url(../img/background_08.jpg);
         min-height: 500px;
         background-position: center;
         background-repeat: no-repeat;
@@ -477,7 +478,7 @@
     /*--------------------------------------- COMECO DO "ARTICLE" -----------------------------------------------*/
     
     article {
-        background: url(background_08.jpg);
+        background: url(../img/background_08.jpg);
         min-height: 500px;
         background-position: center;
         /*padding-top: 25px;*/
@@ -505,7 +506,7 @@
     
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
+        padding: 4px 0px 2px 0px;
         text-align: center;
         margin: 0px 0px 0px 0px;
     }
@@ -514,31 +515,33 @@
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 10px 0px 10px 0px;
+        padding: 20px 0px 0px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-        text-transform: uppercase;
+        margin: 0px auto;
+    }
+    
+    .footer-TXT-02 p {
+        font-size: 10px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 10px 0px;
+        text-align: center;
+        margin: 0px auto;
     }
     
     .footer a {
-        font-size: 25px;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
-        margin: 0px 0px 0px 10px;
+        padding: 1px 5px 0px 5px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     
     .footer a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
-    }
-    
-    .footer-TXT-02 p {
-        font-size: 18px;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 10px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
     }

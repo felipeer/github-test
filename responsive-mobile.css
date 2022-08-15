@@ -10,7 +10,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -23,8 +23,8 @@
         font-size: 16px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 15px;
-        padding-right: 10px;
+        margin: 0px 28px 0px 30px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -43,15 +43,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 2.7em;
+        top: 6.3vh;
         right: 0;
-        width: 30vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 40vh;
-        font-size: 14px;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -77,13 +77,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -102,8 +102,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -113,7 +113,7 @@
         padding: 8px 15px;
         color: #f75560;
         border-radius: 6px;
-        font-size: 12px;
+        font-size: 9px;
         border: 0;
         cursor: pointer;
         margin: 0px auto;
@@ -230,7 +230,7 @@
         background-color: #26272b;
         padding: 20px 0px 0px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer-TXT-02 p {
         font-size: 10px;
@@ -238,15 +238,16 @@
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -271,7 +272,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -284,8 +285,8 @@
         font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 20px;
-        padding-right: 8px;
+        margin: 0px 28px 0px 30px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -304,15 +305,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 2.5em;
+        top: 6.3vh;
         right: 0;
-        width: 30vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 40vh;
-        font-size: 15px;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -336,13 +337,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
-        word-spacing: 1px;
-        margin: 20px auto;
+        word-spacing: 2px;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -361,8 +362,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -490,28 +491,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 20px 0px 0px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer-TXT-02 p {
-        font-size: 0.7em;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -530,7 +533,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -543,8 +546,8 @@
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 18px;
-        padding-right: 8px;
+        margin: 0px 28px 0px 40px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -563,15 +566,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 3.2em;
+        top: 6.3vh;
         right: 0;
-        width: 30vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 32vh;
-        font-size: 15px;
+        height: 29vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -595,13 +598,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -620,8 +623,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -749,28 +752,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 20px 0px 0px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer-TXT-02 p {
-        font-size: 0.7em;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -789,7 +794,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -802,8 +807,8 @@
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 18px;
-        padding-right: 8px;
+        margin: 0px 28px 0px 55px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -822,15 +827,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 2.5em;
+        top: 6.3vh;
         right: 0;
-        width: 30vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 39vh;
-        font-size: 15px;
+        height: 40vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -854,13 +859,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -879,8 +884,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -1008,28 +1013,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 0.7em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 10px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -1048,7 +1055,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -1061,8 +1068,8 @@
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 18px;
-        padding-right: 8px;
+        margin: 0px 28px 0px 55px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1081,15 +1088,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 2.89em;
+        top: 6.5vh;
         right: 0;
-        width: 30vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 36vh;
-        font-size: 15px;
+        height: 29vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1113,13 +1120,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -1138,8 +1145,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -1267,28 +1274,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 0.7em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -1307,7 +1316,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -1320,8 +1329,8 @@
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 18px;
-        padding-right: 8px;
+        margin: 0px 28px 0px 55px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1340,15 +1349,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 3.2em;
+        top: 6.5vh;
         right: 0;
-        width: 30vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 31vh;
-        font-size: 15px;
+        height: 35vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1372,13 +1381,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -1397,8 +1406,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -1447,7 +1456,7 @@
     }
     .slider {
         width: 360px;
-        margin: 30px 10px 0px 05px;
+        margin: 30px auto;
         height: 11em;
         /* altura do slide */
         overflow: hidden;
@@ -1526,28 +1535,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 0.7em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -1559,14 +1570,14 @@
 
 /*------------------------------  4    0    1    -----------------------*/
 
-@media (min-width: 410px) and (max-width: 419px) {
+@media (min-width: 410px) and (max-width: 413px) {
     html,
     body {
         position: relative;
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -1579,8 +1590,8 @@
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 35px;
-        padding-right: 8px;
+        margin: 0px 28px 0px 65px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1599,15 +1610,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 3.2em;
+        top: 6.41vh;
         right: 0;
         width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 50vh;
-        font-size: 15px;
+        height: 35vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1631,13 +1642,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -1656,8 +1667,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -1706,7 +1717,7 @@
     }
     .slider {
         width: 360px;
-        margin: 30px 10px 0px 05px;
+        margin: 30px auto;
         height: 11em;
         /* altura do slide */
         overflow: hidden;
@@ -1785,28 +1796,288 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 0.7em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    }
+    .footer a:hover {
+        background-color: #f75560;
+        color: #26272b;
+        transition: transform 0.5s;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 419px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+    a {
+        font-size: 12px;
+    }
+    header {
+        background-color: #26272b;
+        padding: 0 auto;
+        margin: 0 auto;
+        border-bottom: 2px solid #f75560;
+        display: flex;
+    }
+    .logo {
+        font-size: 1.3em;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: 0px 28px 0px 65px;
+        padding: 0px 2px 0px 0px;
+    }
+    .mobile-menu div {
+        width: 20px;
+        height: 3px;
+        background: #f75560;
+        margin: 5px;
+        transition: 0.3s;
+    }
+    nav {
+        display: flex;
+        word-spacing: 2px;
+        align-items: center;
+        font-family: 'poppins', sans-serif;
+        background: #26272b;
+        height: 8vh;
+    }
+    .nav-list {
+        position: absolute;
+        top: 6.5vh;
+        right: 0;
+        width: 27vw;
+        border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
+        height: 35vh;
+        font-size: 13px;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    /* --------------   MAIN_CTA  ------------ */
+    .main_cta {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main_cta h2 {
+        color: #26272b;
+        font-size: 20px;
+        text-transform: uppercase;
+        margin: 20px auto;
+    }
+    .main_cta p {
+        color: #26272b;
+        font-size: 15px;
+        word-spacing: 2px;
+        margin: auto;
+    }
+    /* --------------   MAIN_CTA_01 ------------ */
+    .main_cta_01 {
+        width: 100%;
+        margin: 20px 0px 10px 0px;
+        text-align: center;
+    }
+    .main_cta_01 h2 {
+        color: #26272b;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        margin-bottom: 0px auto;
+        /*PAREI AQUI 02/07*/
+    }
+    .main_cta_01 p {
+        color: #26272b;
+        font-size: 12px;
+        word-spacing: 3px;
+        margin: 30px auto;
+    }
+    .main_cta_01 button {
+        background-color: #26272b;
+        box-shadow: 0 0 5px #fff, 0 0 25px #000, 0 0 50px #f75560, 0 0 200px #f75560;
+        -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
+        display: inline-block;
+        padding: 8px 15px;
+        color: #f75560;
+        border-radius: 6px;
+        font-size: 12px;
+        border: 0;
+        cursor: pointer;
+        margin: 0px auto;
+        animation-name: pulsante;
+        /* nome da animação */
+        animation-duration: 0.5s;
+        /* duração da animação */
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        /* ciclo da animação */
+        animation-direction: alternate;
+        /* direção do ciclo da animação */
+    }
+    /* --------------   QUADRO DOS SLIDES ------------ */
+    .quadro {
+        flex-wrap: wrap;
+        margin: 10px 0px 50px 0px;
+        gap: 35px;
+    }
+    .quadro-single {
+        width: 100%;
+        margin: 1px auto;
+        padding: 15px 40px;
+    }
+    .quadro-single p {
+        line-height: 20px;
+        font-size: 15px;
+        margin: 10px auto;
+        padding: auto;
+        word-spacing: 2px;
+    }
+    .quadro-single h2 {
+        font-size: 20px;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    .slider {
+        width: 360px;
+        margin: 30px auto;
+        height: 11em;
+        /* altura do slide */
+        overflow: hidden;
+        box-shadow: 0 0 5px #f75560, 0 0 25px #f75560, 0 0 50px #f75560, 0 0 80px #f75560;
+        -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
+        border-radius: 10px;
+    }
+    .slides {
+        width: 400%;
+        height: 21ch;
+        display: flex;
+        margin: 0 auto;
+    }
+    .slides input {
+        display: none;
+    }
+    .slide {
+        width: 25%;
+        position: relative;
+    }
+    .slide img {
+        width: 40ch;
+        height: 18ch;
+        /*repetir na linha 1371  */
+        border-radius: 10px;
+    }
+    .navegacao-manual {
+        position: absolute;
+        width: 24em;
+        /* localização dos radio */
+        margin: -50px auto;
+        /* posição das radio */
+        display: flex;
+        justify-content: center;
+    }
+    .manual-btn {
+        border: 2px solid #000;
+        padding: 2px;
+        /* largura dos radio */
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    .manual-btn:not(last-child) {
+        margin-right: 25px;
+    }
+    .navegacao-auto div {
+        border: 2px solid rgba(170, 79, 79, 0);
+        /* radio transparente*/
+        padding: 2px;
+        /* largura dos radio */
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    .navegacao-auto {
+        position: absolute;
+        width: 24em;
+        /* localização dos radio */
+        margin: 161px auto;
+        /* posição das radio */
+        display: flex;
+        justify-content: center;
+    }
+    .navegacao-auto div:not(last-child) {
+        margin-right: 25px;
+    }
+    .footer-para {
+        margin: auto;
+        padding: auto;
+    }
+    .grupos-icones {
+        background-color: #26272b;
+        padding: 0px 0px 0px 0px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    .footer-TXT-01 p {
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 10px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer a {
+        font-size: 22px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 1px 5px 0px 5px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -1825,7 +2096,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 12px;
     }
     header {
         background-color: #26272b;
@@ -1838,8 +2109,8 @@
         font-size: 1.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 28px;
-        padding-right: 38px;
+        margin: 0px 50px 0px 70px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1858,15 +2129,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 3.2em;
+        top: 6.5vh;
         right: 0;
         width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 50vh;
-        font-size: 15px;
+        height: 35vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1890,13 +2161,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -1914,9 +2185,9 @@
     }
     .main_cta_01 p {
         color: #26272b;
-        font-size: 15px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        font-size: 12px;
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -1965,7 +2236,7 @@
     }
     .slider {
         width: 360px;
-        margin: 30px 10px 0px 05px;
+        margin: 30px auto;
         height: 11em;
         /* altura do slide */
         overflow: hidden;
@@ -2044,28 +2315,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 10px 0px 10px 0px;
+        padding: 20px 0px 0px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer-TXT-02 p {
-        font-size: 0.7em;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 10px 0px 10px 0px;
+        padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -2084,7 +2357,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 14px;
     }
     header {
         background-color: #26272b;
@@ -2097,8 +2370,8 @@
         font-size: 1.5em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 35px;
-        padding-right: 38px;
+        margin: 0px 60px 0px 70px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2117,15 +2390,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 3.7em;
+        top: 6.6vh;
         right: 0;
-        width: 25vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 50vh;
-        font-size: 14px;
+        height: 35vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2149,13 +2422,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -2174,8 +2447,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -2224,7 +2497,7 @@
     }
     .slider {
         width: 360px;
-        margin: 40px auto;
+        margin: 30px auto;
         height: 11em;
         /* altura do slide */
         overflow: hidden;
@@ -2303,28 +2576,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.8em;
+        font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 30px 0px 30px 0px;
+        padding: 20px 0px 0px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer-TXT-02 p {
-        font-size: 0.8em;
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 30px 0px 30px 0px;
+        padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -2343,7 +2618,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 14px;
     }
     header {
         background-color: #26272b;
@@ -2356,8 +2631,8 @@
         font-size: 1.5em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 0px 0px 52px;
-        padding-right: 86px;
+        margin: 0px 90px 0px 70px;
+        padding: 10px 2px 10px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2376,15 +2651,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 2em;
+        top: 5.8vh;
         right: 0;
-        width: 25vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 55vh;
-        font-size: 14px;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2408,13 +2683,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -2433,8 +2708,8 @@
     .main_cta_01 p {
         color: #26272b;
         font-size: 12px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -2483,7 +2758,7 @@
     }
     .slider {
         width: 360px;
-        margin: 40px auto;
+        margin: 30px auto;
         height: 11em;
         /* altura do slide */
         overflow: hidden;
@@ -2562,29 +2837,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
-        letter-spacing: 2px;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 0.7em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
-        margin: 0px 0px 0px 00px;
+        padding: 1px 5px 0px 5px;
+        margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -2603,7 +2879,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 15px;
     }
     header {
         background-color: #26272b;
@@ -2613,11 +2889,11 @@
         display: flex;
     }
     .logo {
-        font-size: 30px;
+        font-size: 25px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 89px 0px 15px;
-        padding-left: 70px;
+        margin: 0px 110px 0px 110px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2636,15 +2912,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 5em;
+        top: 6.7vh;
         right: 0;
-        width: 20vw;
+        width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 35vh;
-        font-size: 14px;
+        font-size: 15px;
         background: #23232e;
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2668,13 +2944,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -2691,9 +2967,9 @@
     }
     .main_cta_01 p {
         color: #26272b;
-        font-size: 15px;
-        word-spacing: 2px;
-        margin: 0px 0px 30px 0px
+        font-size: 12px;
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -2742,7 +3018,7 @@
     }
     .slider {
         width: 400px;
-        margin: 40px auto;
+        margin: 30px auto;
         height: 12em;
         /* altura do slide */
         overflow: hidden;
@@ -2821,28 +3097,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 2.5em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 1em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 1.9em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -2861,7 +3139,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 15px;
     }
     header {
         background-color: #26272b;
@@ -2874,8 +3152,8 @@
         font-size: 2.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 120px;
-        padding-right: 1px;
+        margin: 0px 130px 0px 110px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2894,11 +3172,11 @@
     }
     .nav-list {
         position: absolute;
-        top: 5vh;
+        top: 7.1vh;
         right: 0;
         width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 35vh;
+        height: 29vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
@@ -2926,13 +3204,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -2950,9 +3228,9 @@
     }
     .main_cta_01 p {
         color: #26272b;
-        font-size: 15px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        font-size: 12px;
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -3080,28 +3358,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 1.7em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 1em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 2.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -3120,7 +3400,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 15px;
     }
     header {
         background-color: #26272b;
@@ -3133,8 +3413,8 @@
         font-size: 2.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 120px;
-        padding-right: 1px;
+        margin: 0px 160px 0px 130px;
+        padding: 0px 2px 0px 0px;
     }
     .mobile-menu div {
         width: 20px;
@@ -3153,11 +3433,11 @@
     }
     .nav-list {
         position: absolute;
-        top: 5vh;
+        top: 7.2vh;
         right: 0;
         width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 50vh;
+        height: 29vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
@@ -3185,13 +3465,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -3209,9 +3489,9 @@
     }
     .main_cta_01 p {
         color: #26272b;
-        font-size: 20px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        font-size: 12px;
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -3339,28 +3619,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 2.5em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 1.2em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 2.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -3379,7 +3661,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 10px;
+        font-size: 15px;
     }
     header {
         background-color: #26272b;
@@ -3412,12 +3694,12 @@
     }
     .nav-list {
         position: absolute;
-        top: 5vh;
+        top: 6.99vh;
         right: 0;
         width: 27vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 50vh;
-        font-size: 13px;
+        height: 35vh;
+        font-size: 15px;
         background: #23232e;
         flex-direction: column;
         align-items: center;
@@ -3444,13 +3726,13 @@
         color: #26272b;
         font-size: 20px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
         font-size: 15px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -3468,9 +3750,9 @@
     }
     .main_cta_01 p {
         color: #26272b;
-        font-size: 20px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        font-size: 12px;
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -3599,28 +3881,30 @@
         margin: 0px 0px 0px 0px;
     }
     .footer-TXT-01 p {
-        font-size: 2.5em;
+        font-size: 25px;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 0px 0px;
+        text-align: center;
+        margin: 0px auto;
+    }
+    .footer-TXT-02 p {
+        font-size: 10px;
         color: #f75560;
         background-color: #26272b;
         padding: 20px 0px 10px 0px;
         text-align: center;
-        margin: 0px 0px 0px 0px;
-    }
-    .footer-TXT-02 p {
-        font-size: 1.2em;
-        color: #f75560;
-        background-color: #26272b;
-        padding: 20px 0px 20px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
+        margin: 0px auto;
     }
     .footer a {
-        font-size: 2.7em;
+        font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
+        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     }
     .footer a:hover {
         background-color: #f75560;
@@ -3643,16 +3927,16 @@
     }
     .nav-list {
         position: absolute;
-        top: 6vh;
-        right: -2px;
+        top: 6.5vh;
+        right: 0;
         width: 27vw;
-        border-radius: 100% 0% 82% 18% / 29% 93% 7% 71%;
-        height: 50vh;
+        border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
+        height: 40vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around;
+        justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
     }
@@ -3665,14 +3949,14 @@
     }
 }
 
-@media (min-width:1000px) and (max-width:1024px) {
+@media (min-width:1000px) and (max-width:1023px) {
     html,
     body {
         position: relative;
         overflow-x: hidden;
     }
     a {
-        font-size: 14px;
+        font-size: 20px;
     }
     header {
         background-color: #26272b;
@@ -3682,10 +3966,10 @@
         display: flex;
     }
     .logo {
-        font-size: 2.3em;
+        font-size: 3.3em;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: auto 260px;
+        margin: auto 160px;
         padding-right: 1px;
     }
     .mobile-menu div {
@@ -3705,11 +3989,11 @@
     }
     .nav-list {
         position: absolute;
-        top: 7.5em;
+        top: 7.2vh;
         right: 0;
-        width: 27vw;
+        width: 25vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 50vh;
+        height: 29vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
@@ -3735,15 +4019,15 @@
     }
     .main_cta h2 {
         color: #26272b;
-        font-size: 20px;
+        font-size: 25px;
         text-transform: uppercase;
-        margin: 10px auto;
+        margin: 20px auto;
     }
     .main_cta p {
         color: #26272b;
-        font-size: 15px;
+        font-size: 20px;
         word-spacing: 2px;
-        margin: 20px auto;
+        margin: auto;
     }
     /* --------------   MAIN_CTA_01 ------------ */
     .main_cta_01 {
@@ -3761,9 +4045,9 @@
     }
     .main_cta_01 p {
         color: #26272b;
-        font-size: 20px;
-        word-spacing: 2px;
-        margin: 10px 0px 20px 0px
+        font-size: 15px;
+        word-spacing: 3px;
+        margin: 30px auto;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -3799,7 +4083,7 @@
         padding: 15px 40px;
     }
     .quadro-single p {
-        line-height: 25px;
+        line-height: 35px;
         font-size: 25px;
         margin: 10px auto;
         padding: 2px 0px 2px 0px;
@@ -3911,7 +4195,264 @@
         font-size: 2.7em;
         color: #f75560;
         background-color: #26272b;
-        padding: 12px 20px;
+        padding: 1px 5px 0px 5px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+    }
+    .footer a:hover {
+        background-color: #f75560;
+        color: #26272b;
+        transition: transform 0.5s;
+    }
+}
+
+@media (min-width:1024px) and (max-width:1124px) {
+    html,
+    body {
+        position: relative;
+        overflow-x: hidden;
+    }
+    a {
+        font-size: 20px;
+    }
+    header {
+        background-color: #26272b;
+        padding: 0 auto;
+        margin: 0 auto;
+        border-bottom: 2px solid #f75560;
+        display: flex;
+    }
+    .logo {
+        font-size: 3.3em;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin: auto 160px;
+        padding-right: 1px;
+    }
+    .mobile-menu div {
+        width: 20px;
+        height: 3px;
+        background: #f75560;
+        margin: 5px;
+        transition: 0.3s;
+    }
+    nav {
+        display: flex;
+        word-spacing: 2px;
+        align-items: center;
+        font-family: 'poppins', sans-serif;
+        background: #26272b;
+        height: 8vh;
+    }
+    .nav-list {
+        position: absolute;
+        top: 7.2vh;
+        right: 0;
+        width: 25vw;
+        border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
+        height: 29vh;
+        font-size: 13px;
+        background: #23232e;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        transform: translateX(100%);
+        transition: transform 0.3s ease-in;
+    }
+    .nav-list li {
+        margin-left: 0;
+        opacity: 0;
+    }
+    .mobile-menu {
+        display: block;
+    }
+    /* --------------   MAIN_CTA  ------------ */
+    .main_cta {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .main_cta h2 {
+        color: #26272b;
+        font-size: 25px;
+        text-transform: uppercase;
+        margin: 20px auto;
+    }
+    .main_cta p {
+        color: #26272b;
+        font-size: 20px;
+        word-spacing: 2px;
+        margin: auto;
+    }
+    /* --------------   MAIN_CTA_01 ------------ */
+    .main_cta_01 {
+        width: 100%;
+        margin: 20px 0px 10px 0px;
+        text-align: center;
+    }
+    .main_cta_01 h2 {
+        color: #26272b;
+        font-size: 15px;
+        text-transform: uppercase;
+        margin-top: 5px;
+        margin-bottom: 0px auto;
+        /*PAREI AQUI 02/07*/
+    }
+    .main_cta_01 p {
+        color: #26272b;
+        font-size: 15px;
+        word-spacing: 3px;
+        margin: 30px auto;
+    }
+    .main_cta_01 button {
+        background-color: #26272b;
+        box-shadow: 0 0 5px #fff, 0 0 25px #000, 0 0 50px #f75560, 0 0 200px #f75560;
+        -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
+        display: inline-block;
+        padding: 8px 15px;
+        color: #f75560;
+        border-radius: 6px;
+        font-size: 20px;
+        border: 0;
+        cursor: pointer;
+        margin: 10px 0px;
+        animation-name: pulsante;
+        /* nome da animação */
+        animation-duration: 0.5s;
+        /* duração da animação */
+        animation-timing-function: ease-in-out;
+        animation-iteration-count: infinite;
+        /* ciclo da animação */
+        animation-direction: alternate;
+        /* direção do ciclo da animação */
+    }
+    /* --------------   QUADRO DOS SLIDES ------------ */
+    .quadro {
+        flex-wrap: wrap;
+        margin: 10px 0px 50px 0px;
+        gap: 35px;
+    }
+    .quadro-single {
+        width: 100%;
+        margin: 1px auto;
+        padding: 15px 40px;
+    }
+    .quadro-single p {
+        line-height: 35px;
+        font-size: 25px;
+        margin: 10px auto;
+        padding: 2px 0px 2px 0px;
+        word-spacing: 5px;
+        align-content: space-between
+    }
+    .quadro-single h2 {
+        font-size: 35px;
+        margin: 10px auto;
+        text-align: justify;
+    }
+    .slider {
+        width: 800px;
+        margin: 30px auto;
+        height: 320px;
+        /* altura do slide */
+        overflow: hidden;
+        box-shadow: 0 0 5px #f75560, 0 0 25px #f75560, 0 0 50px #f75560, 0 0 80px #f75560;
+        -webkit-box-reflect: below 1px linear-gradient(transparent), #26272b;
+        border-radius: 10px;
+    }
+    .slides {
+        width: 400%;
+        height: 21ch;
+        display: flex;
+        margin: 0 auto;
+    }
+    .slides input {
+        display: none;
+    }
+    .slide {
+        width: 25%;
+        position: relative;
+    }
+    .slide img {
+        width: 800px;
+        height: 320px;
+        /*repetir na linha 1371  */
+        border-radius: 10px;
+    }
+    .navegacao-manual {
+        position: absolute;
+        width: 360px;
+        margin-top: 80px;
+        left: 175px;
+        /* posição das radio */
+        display: flex;
+        justify-content: center;
+    }
+    .manual-btn {
+        border: 2px solid #000;
+        padding: 2px;
+        /* largura dos radio */
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    .manual-btn:not(last-child) {
+        margin-right: 15px;
+    }
+    .navegacao-auto div {
+        border: 2px solid rgba(170, 79, 79, 0);
+        /* radio transparente*/
+        padding: 2px;
+        /* largura dos radio */
+        border-radius: 10px;
+        cursor: pointer;
+        transition: 0.9s;
+    }
+    .navegacao-auto {
+        position: absolute;
+        width: 360px;
+        margin-top: 291px;
+        left: 175px;
+        /* posição das radio */
+        display: flex;
+        justify-content: center;
+    }
+    .navegacao-auto div:not(last-child) {
+        margin-right: 15px;
+    }
+    .footer-para {
+        margin: auto;
+        padding: auto;
+    }
+    .grupos-icones {
+        background-color: #26272b;
+        padding: 4px 0px 2px 0px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    .footer-TXT-01 p {
+        font-size: 2.5em;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 10px 0px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    .footer-TXT-02 p {
+        font-size: 1.2em;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 20px 0px 20px 0px;
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+    }
+    .footer a {
+        font-size: 2.7em;
+        color: #f75560;
+        background-color: #26272b;
+        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
     }
