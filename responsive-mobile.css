@@ -20,11 +20,12 @@
         display: flex;
     }
     .logo {
-        font-size: 14px;
+        font-size: 13px;
         text-transform: uppercase;
+        text-align: center;
         letter-spacing: 4px;
-        margin: 0px 35px 0px 28px;
-        padding: 0px 20px 0px 0px;
+        margin: 0px 30px 0px 40px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -33,26 +34,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.3vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 35vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 40vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -71,8 +73,7 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: -20px 10px;
     }
     .main_cta h2 {
         color: #26272b;
@@ -105,6 +106,7 @@
         font-size: 12px;
         word-spacing: 3px;
         margin: 30px auto;
+        padding: 10px 0px 10px 0px;
     }
     .main_cta_01 button {
         background-color: #26272b;
@@ -221,7 +223,18 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
+        margin: auto;
+        padding: auto;
+    }
+    .grupos-icones {
+        background-color: #26272b;
+        padding: 20px 40px;
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
         margin: auto;
         padding: auto;
     }
@@ -229,37 +242,34 @@
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
+        border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
-    }
-    .grupos-icones {
-        background-color: #26272b;
-        padding: 10px 0px 0px 0px;
-        text-align: center;
-        margin: 0px 0px 0px 0px;
     }
 }
 
@@ -283,11 +293,12 @@
         display: flex;
     }
     .logo {
-        font-size: 14px;
+        font-size: 13px;
         text-transform: uppercase;
+        text-align: center;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 55px;
-        padding: 0px 40px 0px 0px;
+        margin: 0px 50px 0px 60px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -296,26 +307,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.3vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 35vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 40vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -332,8 +344,7 @@
         width: 100%;
         margin: 0 auto;
         text-align: center;
-        margin-top: 10px;
-        margin-bottom: 10px;
+        margin: -20px 10px;
     }
     .main_cta h2 {
         color: #26272b;
@@ -482,43 +493,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -545,11 +563,12 @@
         display: flex;
     }
     .logo {
-        font-size: 14px;
+        font-size: 13px;
         text-transform: uppercase;
+        text-align: center;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 55px;
-        padding: 0px 40px 0px 0px;
+        margin: 0px 50px 0px 70px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -557,27 +576,29 @@
         background: #f75560;
         margin: 5px;
         transition: 0.3s;
+        position: 80%;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.3vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 35vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 29vh;
+        height: 37vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -744,43 +765,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -810,8 +838,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 45px 0px 35px;
+        margin: 0px 60px 0px 60px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -820,26 +848,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.3vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 35vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 40vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1006,7 +1035,7 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
@@ -1072,8 +1101,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 45px 0px 35px;
+        margin: 0px 60px 0px 70px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1082,26 +1111,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.5vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 35vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 29vh;
+        height: 38vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1268,43 +1298,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -1321,7 +1358,7 @@
         overflow-x: hidden;
     }
     a {
-        font-size: 12px;
+        font-size: 13px;
     }
     header {
         background-color: #26272b;
@@ -1331,11 +1368,11 @@
         display: flex;
     }
     .logo {
-        font-size: 14px;
+        font-size: 15px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 45px 0px 35px;
+        margin: 0px 60px 0px 70px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1344,26 +1381,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.5vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 33vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 35vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1530,43 +1568,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -1596,8 +1641,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 70px 0px 35px;
+        margin: 0px 70px 0px 80px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1606,26 +1651,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.41vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 35vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 35vh;
+        height: 38vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -1792,43 +1838,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -1855,8 +1908,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 70px 0px 35px;
+        margin: 0px 70px 0px 80px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -1865,26 +1918,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.5vh;
+        top: 10.3vh;
         right: 0;
-        width: 27vw;
+        width: 33vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 35vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2051,43 +2105,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -2117,8 +2178,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 70px 0px 35px;
+        margin: 0px 80px 0px 90px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2138,15 +2199,15 @@
     }
     .nav-list {
         position: absolute;
-        top: 6.5vh;
+        top: 8.2vh;
         right: 0;
-        width: 27vw;
+        width: 33vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 35vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2313,43 +2374,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 2px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -2379,8 +2447,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 100px 0px 70px;
+        margin: 0px 100px 0px 115px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2389,26 +2457,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.6vh;
+        top: 10.2vh;
         right: 0;
-        width: 27vw;
+        width: 33vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 35vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2575,43 +2644,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -2641,8 +2717,8 @@
         font-size: 14px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 80px 0px 105px;
+        margin: 0px 110px 0px 130px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2651,26 +2727,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 10px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 5.8vh;
+        top: 10.4vh;
         right: 0;
-        width: 27vw;
+        width: 33vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 55vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -2837,43 +2914,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 0px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -2900,11 +2984,11 @@
         display: flex;
     }
     .logo {
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 80px 0px 100px;
+        margin: 0px 130px 0px 150px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -2913,26 +2997,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.7vh;
+        top: 10.2vh;
         right: 0;
-        width: 27vw;
+        width: 30vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
         height: 35vh;
-        font-size: 15px;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -3098,43 +3183,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 25px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 2px 0px 0px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -3161,11 +3253,11 @@
         display: flex;
     }
     .logo {
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 185px 0px 115px;
+        margin: 0px 180px 0px 220px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -3174,26 +3266,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 14px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 7.1vh;
+        top: 10.19vh;
         right: 0;
-        width: 27vw;
+        width: 28vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 29vh;
+        height: 32vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -3360,43 +3453,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 4px 0px 2px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -3423,11 +3523,11 @@
         display: flex;
     }
     .logo {
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 28px 0px 30px;
-        padding: 0px 215px 0px 120px;
+        margin: 0px 200px 0px 240px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -3436,26 +3536,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 16px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 7.2vh;
+        top: 10.19vh;
         right: 0;
-        width: 27vw;
+        width: 28vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 29vh;
+        height: 32vh;
         font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -3622,43 +3723,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 4px 0px 2px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -3685,10 +3793,11 @@
         display: flex;
     }
     .logo {
-        font-size: 25px;
+        font-size: 20px;
         text-transform: uppercase;
         letter-spacing: 4px;
-        margin: 0px 130px 0px 120px;
+        margin: 0px 220px 0px 240px;
+        padding: 0px 10px 0px 10px;
     }
     .mobile-menu div {
         width: 20px;
@@ -3697,27 +3806,27 @@
         margin: 5px;
         transition: 0.3s;
     }
-    nav {
-        display: flex;
-        word-spacing: 2px;
-        align-items: center;
-        font-family: 'poppins', sans-serif;
-        background: #26272b;
-        height: 8vh;
-        padding: auto;
-        padding: auto;
+    nav a {
+        color: #f75560;
+        text-decoration: none;
+        transition: 0.3s;
+        padding: 2px 6px;
+        border-radius: 6px;
+        font-size: 16px;
+        margin: 0px 0px 0px 0px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .nav-list {
         position: absolute;
-        top: 6.99vh;
+        top: 10.19vh;
         right: 0;
-        width: 27vw;
+        width: 25vw;
         border-radius: 100% 0% 62% 38% / 25% 93% 7% 75%;
-        height: 35vh;
-        font-size: 15px;
+        height: 32vh;
+        font-size: 13px;
         background: #23232e;
         flex-direction: column;
-        align-items: center;
+        align-items: flex-end;
         justify-content: space-evenly;
         transform: translateX(100%);
         transition: transform 0.3s ease-in;
@@ -3885,43 +3994,50 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
     .grupos-icones {
         background-color: #26272b;
-        padding: 4px 0px 2px 0px;
-        text-align: center;
+        padding: 20px 40px;
         margin: 0px 0px 0px 0px;
+        text-align: center;
+        word-spacing: 20px;
+    }
+    .container-inicial {
+        margin: auto;
+        padding: auto;
     }
     .footer-TXT-01 p {
         font-size: 25px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 0px 0px;
+        padding: 10px 0px 0px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
     .footer-TXT-02 p {
         font-size: 10px;
         color: #f75560;
         background-color: #26272b;
-        padding: 20px 0px 10px 0px;
+        padding: 10px 0px 20px 0px;
         text-align: center;
-        margin: 0px auto;
+        margin: 0px 0px 0px 0px;
     }
-    .footer a {
+    .footer-clearfix a {
         font-size: 22px;
         color: #f75560;
         background-color: #26272b;
-        padding: 1px 5px 0px 5px;
         margin: 0px 0px 0px 0px;
         text-align: center;
-        margin-right: 15px;
         border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+        text-align: center;
+        padding: 3px 9px;
+        border: solid 1px;
+        cursor: pointer;
     }
-    .footer a:hover {
+    .footer-clearfix a:hover {
         background-color: #f75560;
         color: #26272b;
         transition: transform 0.5s;
@@ -4181,7 +4297,7 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
@@ -4439,7 +4555,7 @@
     .navegacao-auto div:not(last-child) {
         margin-right: 15px;
     }
-    .footer-para {
+    .footer-clearfix {
         margin: auto;
         padding: auto;
     }
