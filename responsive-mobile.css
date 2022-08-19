@@ -119,7 +119,7 @@
         padding: 4px;
         /* largura dos radio */
         border-radius: 10px;
-        cursor: pointer;
+        /*cursor: pointer;*/
         transition: 0.9s;
     }
     .navegacao-auto {
