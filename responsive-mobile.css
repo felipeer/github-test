@@ -773,7 +773,7 @@
         width: 40ch;
         height: 18ch;
         /*repetir na linha 1371  */
-        border-radius: 10px;
+        /*border-radius: 10px;*/
     }
     .navegacao-manual {
         position: absolute;
