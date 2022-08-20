@@ -68,6 +68,7 @@
     }
     .mobile-menu {
         display: block;
+        cursor: pointer;
     }
     .mobile-menu div {
         width: 20px;
@@ -276,7 +277,7 @@
         font-size: 4vw;
         text-transform: uppercase;
         letter-spacing: 3px;
-        margin: 0px 100px 0px 10px;
+        margin: 0px 80px 0px 10px;
         padding: 1px 5px;
         border-radius: 5px 5px;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -325,6 +326,7 @@
     }
     .mobile-menu {
         display: block;
+        cursor: pointer;
     }
     .mobile-menu div {
         width: 20px;
@@ -365,7 +367,7 @@
         position: relative;
     }
     .slide img {
-        width: 100vw;
+        width: 100.1vw;
         height: 200px;
         /*repetir na linha 1371  */
     }
@@ -580,6 +582,7 @@
     }
     .mobile-menu {
         display: block;
+        cursor: pointer;
     }
     .mobile-menu div {
         width: 20px;
