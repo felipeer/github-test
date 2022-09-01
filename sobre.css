@@ -32,7 +32,7 @@ body {
     box-sizing: border-box;
     width: 100%;
     height: 100%;
-    background: url(../img/slide-1.jpg);
+    background: url(fundo-body.jpg);
     background-position: center;
     background-repeat: no-repeat;
     /*-- tentar: background-repeat: no-repeat;*/
