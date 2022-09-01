@@ -2,256 +2,209 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
     <title>Felissa Home Care</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel='stylesheet'>
-    <script src="script.js"></script>
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="all.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive-mobile.css">
-    <link rel="stylesheet" href="style_sobre.css">
 
-    <!-- REQUEST FONT AWSOME-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/all.css">
+    <link rel="stylesheet" type="text/css" href="css/responsive.css">
+    <link rel="stylesheet" type="text/css" href="css/teste.css">
+
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!--KEY FONT AWSOME-->
-    <!--<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">-->
-    <link href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap" rel='stylesheet' type='text/css'>
-    <!-- KEY FONT AWSOME-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!-- fontes-->
     <script src="https://kit.fontawesome.com/65f95e659e.js" crossorigin="anonymous"></script>
-    <!-- KEY FONT AWSOME-->
-
 
 </head>
 
 <body>
-    <div id="container">
+    <!-- CABEÇALHO  -->
 
-        <header>
-            <nav>
-                <a class="logo" href="index.html">Felissa Home Care</a>
+    <header class="header">
 
-                <div class="mobile-menu">
+        <div id="container-01" class="container">
 
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
+            <div class="header-main">
+
+                <div class="logo">
+                    <a href="index.html"></a><img src="img//logo-fhc.png" width="140px" height="70px" alt="Logo">
+                    <!--<a href="#">Felissa Home Care</a>-->
                 </div>
 
-                <ul class="nav-list">
+                <div class="open-nav-menu">
+                    <span></span>
+                </div>
 
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="servicos.html">Serviços</a></li>
-                    <li><a href="contatos.html">Contatos</a></li>
-                    <li><a href="curriculo.html">Currículos</a></li>
+                <div class="menu-overlay">
+                </div>
+
+                <!-- MENU DE NAVEGAÇÃO -->
+
+                <nav class="nav-menu">
+
+                    <div class="close-nav-menu">
+
+                        <img id="icone-close-rotate" src="img/close6.png" alt="close">
+                    </div>
+
+                    <ul class="menu">
+
+                        <li class="menu-item">
+
+                            <a href="index.html">Inicio</a>
+
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="sobre.html">Sobre</a>
+                        </li>
+
+                        <li class="menu-item menu-item-has-children">
+
+                            <a href="#" data-toggle="sub-menu">Serviços <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Hospitalares</a></li>
+                                <li class="menu-item"><a href="#">Residenciais</a></li>
+                                <li class="menu-item"><a href="#">Tipos de Plantões</a></li>
+                                <li class="menu-item"><a href="#">Acompanhamentos</a></li>
+                            </ul>
+
+                        </li>
+
+                        <li class="menu-item menu-item-has-children">
+
+                            <a href="#" data-toggle="sub-menu">Contatos <i class="plus"></i></a>
+                            <ul class="sub-menu">
+                                <li class="menu-item"><a href="#">Instagram</a></li>
+                                <li class="menu-item"><a href="">Facebook</a></li>
+                                <li class="menu-item"><a href="#">WhatssApp</a></li>
+                                <li class="menu-item"><a href="#">Linkedin</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Trabalhe Conosco</a>
+                        </li>
+
+                        <li class="menu-item">
+                            <a href="#">Blog</a>
+                        </li>
+
+                    </ul>
+
+                </nav>
+                <!-- MENU DE NAVEGAÇÃO -->
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+
+        <article>
 
 
-                </ul>
-            </nav>
-            <!-- nav -->
-        </header>
-        <!-- header -->
-
-
-
-        <main class="conteudo-central">
-
-            <div class="meio-geral">
-
-
+            <section class="home">
                 <div class="slider">
-                    <div class="slides">
-                        <!---------------- BOTÕES RADIO ------------------->
-                        <input type="radio" name="radio-btn" id="radio1">
-                        <input type="radio" name="radio-btn" id="radio2">
-                        <input type="radio" name="radio-btn" id="radio3">
-                        <input type="radio" name="radio-btn" id="radio4">
-                        <input type="radio" name="radio-btn" id="radio5">
-                        <input type="radio" name="radio-btn" id="radio6">
-                        <input type="radio" name="radio-btn" id="radio7">
-
-
-                        <!---------------- IMAGENS DOS SLIDES ------------------->
-
-                        <div class="slide first">
-                            <img src="imagem-01.jpg" alt="imagem 1" />
+                    <div class="slide active" style="background-image: url('img/slide-1.jpg')">
+                        <div id="container-slide" class="container">
+                            <div class="caption">
+                                <h1>Cuidadores</h1>
+                                <p>Respeito e serenidade</p>
+                                <a href="">Saiba mais</a>
+                            </div>
                         </div>
-                        <!-- IMAGEM 01 -->
-
-                        <div class="slide">
-                            <img src="imagem-02.jpg" alt="imagem 2" />
-                        </div>
-                        <!-- IMAGEM 02 -->
-
-                        <div class="slide">
-                            <img src="imagem-03.jpg" alt="imagem 3" />
-                        </div>
-                        <!-- IMAGEM 03 -->
-
-                        <div class="slide">
-                            <img src="imagem-04.jpg" alt="imagem 4" />
-                        </div>
-                        <!-- IMAGEM 04 -->
-
-                        <div class="slide">
-                            <img src="imagem-05.jpg" alt="imagem 5" />
-                        </div>
-                        <!-- IMAGEM 05 -->
-
-                        <div class="slide">
-                            <img src="imagem-06.jpg" alt="imagem 6" />
-                        </div>
-                        <!-- IMAGEM 06 -->
-
-                        <div class="slide">
-                            <img src="imagem-07.jpg" alt="imagem 7" />
-                        </div>
-                        <!-- IMAGEM 07 -->
-
-
-                        <!---------------- NAVEGAÇÃO DOS SLIDES AUTO ------------------->
-
-                        <div class="navegacao-auto">
-
-                            <div class="auto-btn1"></div>
-                            <div class="auto-btn2"></div>
-                            <div class="auto-btn3"></div>
-                            <div class="auto-btn4"></div>
-                            <div class="auto-btn5"></div>
-                            <div class="auto-btn6"></div>
-                            <div class="auto-btn7"></div>
-
-                        </div>
-
                     </div>
-                    <!--SLIDES-->
-
-                    <!---------------- NAVEGAÇÃO DOS SLIDES MANUAL ------------------->
-                    <div class="navegacao-manual">
-
-                        <label for="radio1" class="manual-btn"></label>
-                        <label for="radio2" class="manual-btn"></label>
-                        <label for="radio3" class="manual-btn"></label>
-                        <label for="radio4" class="manual-btn"></label>
-                        <label for="radio5" class="manual-btn"></label>
-                        <label for="radio6" class="manual-btn"></label>
-                        <label for="radio7" class="manual-btn"></label>
-
-
+                    <div class="slide" style="background-image: url('img/slide-2.jpg')">
+                        <div id="container-slide" class="container">
+                            <div class="caption">
+                                <h1>Nossos Serviços</h1>
+                                <p>Diversas complexidades</p>
+                                <a href="">Saiba mais</a>
+                            </div>
+                        </div>
                     </div>
-                    <!-- NAV. MANUAL -->
-
-
-                </div>
-                <!-- SLIDER -->
-
-
-                <div class="main_cta">
-                    <h2>
-                        Respeito e Seriedade!</h2>
-                    <p>Sempre nos empenhamos em oferecer um ambiente de trabalho seguro aos nossos colaboradores e pacientes.<br>Adotando todas as normas de segurança e regulamentadoras, visando a proteção à saúde e mantendo o bem-estar do paciente.
-                        <br><br>Proporcionando uma atenção fundamental no apoio e acolhimento em seu novo cotidiano.<br>Com o objetivo de oferecer dignidade e diminuição do sofrimento decorrente da patologia.</p>
-                </div>
-                <!--main_cta-->
-
-                <div class="main_cta_01">
-                    <h2>             
-                    <p>Faça seu orçamento!
-                    </p>
-                    <button onclick="location.href='https://docs.google.com/forms/d/e/1FAIpQLSf8Ji7fwmwpHJBCm0dCNCNhIk8hwuWVgCbNblm7SOdH5875ZA/viewform'" type="button">
-                        Clique aqui</button>
-                </div>
-                <!--main_cta_01-->
-
-                <div class="quadro">
-                    <div class="quadro-single">
-                        <h2><i class="fa-solid fa-hand-holding-medical"></i>&ensp;&ensp;Home Care</h2>
-                        <p>O nome Home Care vem do inglês “cuidado em casa”, que nos últimos anos vem sendo uma assistência muito procurada. Sendo uma opção de tratamento buscado por pessoas que querem estar com seus familiares e fazendo o acompanhamento
-                            em casa.
-                        </p>
-                    </div>
-                    <!-- quadro-single-->
-                    <div class="quadro-single">
-                        <h2><i class="fa-solid fa-person-cane"></i>&ensp;&ensp;Cuidadores</h2>
-                        <p>Muitas famílias buscam por pessoas capacitadas e dispostas para cuidar de seus familiares. E nós temos pessoas capacitadas para quaisquer complexidades que o paciente apresentar.<br>Nós ajudamos você a passar por estes momentos
-                            tão delicados e contínuos. e preciso.</p>
+                    <div class="slide active" style="background-image: url('img/slide-3.jpg')">
+                        <div id="container-slide" class="container">
+                            <div class="caption">
+                                <h1>Colaboradores</h1>
+                                <p>Cadastre seu curriculo</p>
+                                <a href="">Saiba mais</a>
+                            </div>
+                        </div>
                     </div>
 
-                    <!-- quadro-single-->
-                    <div class="quadro-single">
-                        <h2><i class="fa-solid fa-house-chimney-medical"></i>&ensp;&ensp;Residência</h2>
-                        <p>Profissionais preparados para todas as complexidades, auxiliando o enfermo a passar por novas adaptações diárias. Administração de medicamentos, cuidados de enfermagem, monitoramentos constantes e acompanhamentos a exames.</p>
-                    </div>
-                    <!-- quadro-single-->
-                    <div class="quadro-single">
-                        <h2><i class="fa-solid fa-hospital"></i>&ensp;&ensp;Hospitais</h2>
-                        <p>Nós prestamos serviços junto ao paciente para certificar a evolução, identificar alterações, monitorar a assistência prestada, auxiliar nos cuidados definidos pela equipe multidisciplinar da instituição e passar para os familiares,
-                            conforme cada prestação de serviço solicitada.</p>
-                    </div>
-                    <!-- quadro-single-->
-                </div>
-
-
-            </div>
-            <!-- center-->
-
-
-
-        </main>
-        <!-- conteudo central-->
-
-        <!-- article -->
-
-        <!-- <article id="">
-
-
-        </article>-->
-
-
-        <!-- footer starts here -->
-
-        <!-- FOOTER INICIAL -->
-        <footer class="site-footer">
-
-            <div id="footer" class="container">
-                <div class="row">
-                    <div class="col-md-8 col-sm-6 col-xs-12">
-                        <p class="copyright-text">Felissa Home Care 2022 &copy; - Todos os direitos reservados.
-                        </p>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6 col-xs-12">
-
-                        <ul class="social-icons">
-
-                            <li><a class="instagram" href="https://www.instagram.com/felissahomecare/"><i class="fa fa-instagram"></i></a></li>
-
-                            <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
-
-                            <li><a class="whatsapp" href="https://web.whatsapp.com/send?phone=5511952087521"><i class="fa fa-whatsapp"></i></a></li>
-
-                            <li><a class="email" href="mailto:felissahomecare@gmail.com"><i class="fa fa-envelope"></i></a></li>
-
-                        </ul>
+                    <!--<div class="slide active" style="background-image: url('img/slide-4.jpg')">
+                        <div id="container-slide" class="container">
+                            <div class="caption">
+                                <h1>Atendemos em toda capital de SP</h1>
+                                <p></p>
+                                <a href="">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>-->
+                    <div class="slide active" style="background-image: url('img/slide-5.jpg')">
+                        <div id="container-slide" class="container">
+                            <div class="caption">
+                                <h1>Prontidão 24h</h1>
+                                <p>Juntos onde for preciso</p>
+                                <a href="">Saiba mais</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </footer>
-        </footer>
-        <!--- FOOTER GERAL --->
+                </div>
+
+                <!-- controls  -->
+                <div class="controls">
+                    <div class="prev">
+                        ◀</div>
+                    <div class="next">▶</div>
+                </div>
+
+                <!-- indicators -->
+                <div class="indicator">
+                </div>
+
+            </section>
 
 
-    </div>
-    <!--container-->
+            <script src="js/slide-script.js"></script>
+
+
+        </article>
 
 
 
-    <script src="../js/script.js"></script>
-    <script src="../js/mobile-navbar.js"></script>
+    </main>
+    <!-- home -->
+
+
+
+
+
+
+    <!-- Footer -->
+
+
+
+
+
+    <!-- JAVASCRIPT  -->
+
+    <script src=" js/script.js "></script>
+    <script src="js/buttom-rotate.js "></script>
+
+
 
 </body>
 
