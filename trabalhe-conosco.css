@@ -31,7 +31,7 @@ body {
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
-    background: url(../img/fundo-body.jpg);
+    background: url(fundo-body.jpg);
     /*-- tentar: background-repeat: no-repeat;*/
     background-size: cover;
     background-attachment: fixed;
@@ -75,6 +75,7 @@ main {
 }
 
 .texto-sobre h1 {
+    text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 auto;
