@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+/*////////////////////////////////////////////*/
+
+
+/* U+00a0 CARACTERE INVALIDO INVISIVEL PRA TEXTO*/
+
+
+/*////////////////////////////////////////////*/
+
+
+/*////////////////////////////////////////////*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* cores dos textos */
+
+h1,
+h2,
+p {
+    color: #26272b;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: url(../img/fundo-body.jpg);
+    /*-- tentar: background-repeat: no-repeat;*/
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/*/////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////*/
+
+main {
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    padding: 0;
+}
+
+.box-sobre-nos {
+    border-radius: 10px;
+    margin: 170px 20px 20px 20px;
+    padding: 20px;
+    background-color: #fa97ad80;
+    backdrop-filter: blur(10px)
+}
+
+.texto-sobre {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+}
+
+.texto-sobre h1::after {
+    content: '';
+    width: 200px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #c44863;
+}
+
+.texto-sobre h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 0 auto;
+    display: block;
+    font-size: 35px;
+    padding: 30px 0;
+}
+
+.texto-sobre h1::before {
+    content: '';
+    width: 200px;
+    height: 4px;
+    display: block;
+    margin: 0 auto;
+    background-color: #c44863;
+}
+
+.texto-sobre p {
+    text-align: center;
+    display: block;
+    font-size: 20px;
+    margin: 0;
+    font-size: 18px;
+    letter-spacing: 1px;
+    align-items: center;
+    font-weight: 500;
+}
+
+
+/*/////////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////////////////*/
+
+footer {
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.global {
+    padding: 10px 0px;
+    color: #f0f9ff;
+    margin: 0 auto;
+    opacity: 0.9;
+}
+
+
+/*.global .curve {
+    position: absolute;
+    top: 17%;
+    background: #000;
+    opacity: 0.2;
+    width: 90%;
+    height: 38%;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+}*/
+
+.global h6 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #c27586;
+    font-size: 25px;
+}
+
+
+/*
+.global ul {
+    list-style-type: none;
+    line-height: 30px;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+
+.global ul a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.global ul a:hover {
+    opacity: 0.8;
+    color: #eee;
+}*/
+
+.global .social {
+    max-width: 1170px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 2px solid #c44863;
+    border-radius: 10px;
+}
+
+.global .social a {
+    font-size: 22px;
+    width: 45px;
+    height: 45px;
+    line-height: 39px;
+    display: inline-block;
+    border-radius: 60%;
+    border: 2px solid #c44863;
+    margin: 10px;
+    color: #c27586;
+    transition: 0.3s ease-in-out;
+}
+
+.global .social a:hover {
+    opacity: 0.9;
+    color: #000;
+    box-shadow: 0px 1px 5px 2px #424242;
+}
+
+.global .copyright {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    color: #c98594;
+}
+
+@media (max-width: 452px) {
+    .global .social {
+        padding: 10px;
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .global .copyright {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 767px) {
+    /*.global .curve {
+        left: 5%;
+        height: 70%;
+    }*/
+    .global h6 {
+        margin: 0 auto;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    /*.global ul {
+        text-align: center;
+    }*/
+    .social {
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 1175px) {
+    .global .social {
+        border-radius: 0px;
+    }
+}
