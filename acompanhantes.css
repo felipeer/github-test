@@ -75,6 +75,7 @@ main {
 }
 
 .texto-sobre h1 {
+    text-align: center;
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 auto;
